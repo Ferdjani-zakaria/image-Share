@@ -6,7 +6,6 @@ import Image from "../models/image.model";
 const router = express.Router();
 
 const storage = multer.memoryStorage();
-
 const fileFilter = (
     req: Request,
     file: Express.Multer.File,
